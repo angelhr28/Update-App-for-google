@@ -11,10 +11,11 @@ Con esta nueva funcionalidad que brinda google podras tener actualizada tu app d
         
   Primero debemos declarar:
   
-        private val MY_REQUEST_CODE = 1
+        private val MY_REQUEST_CODE = 1 
         private var installStateUpdatedListener: InstallStateUpdatedListener? = null
         private var mAppUpdateManager: AppUpdateManager? = null
-
+  
+  Estas variables seran utilizadas para poder captar captar los eventos emitidos por google play store con respecto a nuestra app y sus respectivas actualizaciones 
         
 
 
